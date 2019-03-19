@@ -1,6 +1,8 @@
 //# LIST-STL-C-stl-
 //LIST | STL C++ | Библиотека стандартных шаблонов (stl). Обучение С++
+#include<iostream>
 #include<list>
+using namespace std;	
 template<typename T>
 void PrintList(const list<T> &lst)
 {
